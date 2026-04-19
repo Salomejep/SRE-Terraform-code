@@ -9,7 +9,7 @@ terraform {
     encrypt = true
     # The bucket name will be set during terraform init with -backend-config
     # bucket  = "unique-bucket-name-will-be-set-via-backend-config"
-    name = "saldev.websitetwo"
+    bucket = "saldev.websitetwo"
   }
 }
 
